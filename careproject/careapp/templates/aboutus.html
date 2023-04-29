@@ -1,0 +1,57 @@
+{% extends 'index_cms.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About CareLine</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Include your CSS and JavaScript files here -->
+</head>
+<body>
+	<!-- Add your header here -->
+	{% block here %}
+    <header class="container">
+		<h1>About CareLine</h1>
+		<nav>
+			<ul>
+				<li><a href="" class="disabled">Our Mission</a></li>
+				<li><a href="">Our Services</a></li>
+				<li><a href="">Our Team</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main class="container">
+		<section id="mission">
+			<h2>Our Mission</h2>
+			<p>At CareLine, our mission is to provide high-quality, compassionate care to patients in need. We understand that every patient has unique needs and we work closely with our clients and their families to develop customized care plans that meet their individual requirements.</p>
+		</section>
+		
+		<section id="services">
+			<h2>Our Services</h2>
+			<p>We offer a wide range of caregiving services, including:</p>
+			<ul>
+				<li>Personal care, such as bathing and grooming</li>
+				<li>Companion care, such as socialization and conversation</li>
+				<li>Home health care, such as medication management and wound care</li>
+				<li>Palliative care, such as pain management and emotional support</li>
+			</ul>
+			 <p>Our services are available on a short-term or long-term basis, depending on your needs.</p>
+		</section>
+		
+		<section id="team">
+			<h2>Our Team</h2>
+			<p>Our team of caregivers are highly trained, experienced, and dedicated to providing the best possible care to our clients. We carefully screen all of our caregivers to ensure that they have the necessary qualifications and experience to meet our high standards. Our team includes:</p>
+			<ul>
+				<li>Certified nursing assistants (CNAs)</li>
+				<li>Registered nurses (RNs)</li>
+				<li>Licensed practical nurses (LPNs)</li>
+				<li>Home health aides (HHAs)</li>
+			</ul>
+		</section>
+	</main>
+	
+	
+    {% endblock %}
+</body>
+</html>
